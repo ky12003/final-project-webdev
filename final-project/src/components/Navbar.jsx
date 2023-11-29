@@ -1,7 +1,11 @@
 import React from 'react'
 
-import '../App.css'
 import bearIcon from '../assets/images/bear-icon.svg'
+import greyEllipse from '../assets/images/grey-ellipse.png'
+
+import '../App.css'
+import '../css/Navbar.css'
+
 
 const Navbar = () => {
     return (
@@ -9,17 +13,19 @@ const Navbar = () => {
 
         <header>
 
-            <section className="flex">
+            <section className="nav-container">
 
-                <img src={bearIcon} alt="Bear Planner Icon" className/>
+                <img src={bearIcon} alt="Bear Planner Icon" className="logo-icon"/>
 
-                <div id="menu-bar" className="fas fa-bars"></div>
 
                 <nav className="navbar">
-                    <a href="#home">home</a>
-                    <a href="#speciality">planner</a>
-                    <a href="#popular">saved schedules</a>
-                
+                    <div className="ref-container">
+                        <a href="#home">Home</a>
+                        <a href="#speciality">Planner</a>
+                        <a href="#popular">Saved Schedules</a>
+                    </div>
+                    
+                    <img src={greyEllipse} alt="profile picture" class="profile-icon"/>
                 </nav>
 
             </section>
