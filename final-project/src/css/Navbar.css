@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Fira+Sans:wght@200&family=M+PLUS+1+Code&family=Outfit:wght@300&family=Pixelify+Sans&family=Roboto+Mono:wght@200&family=VT323&family=Young+Serif&display=swap');
+
+.logo-icon {
+    height: 3.3rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.profile-icon {
+    height: 2.5rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    height: 1rem;
+    border-bottom: 0.1rem solid;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 60%;
+}
+
+.ref-container {
+    position: relative;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    width: 80%;
+}
+
+.ref-container a {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    color: #333333;
+}
+
+/* .ref */
