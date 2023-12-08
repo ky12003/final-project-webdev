@@ -12,6 +12,12 @@
     padding-top: 0.5rem;
 }
 
+.profile-btn {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
 .nav-container {
     display: flex;
     align-items: center;
