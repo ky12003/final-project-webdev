@@ -8,8 +8,7 @@ LOCAL COMPONENT IMPORTS
 --------*/
 import Navbar from './components/Navbar'
 import LandingPage from './components/LandingPage'
-// import LandingPage from './components/LandingPage'
-// import LoginPage from './components/LoginPage'
+import Planner from './components/Planner'
 
 /*------
 EXTERNAL COMPONENT IMPORTS
@@ -28,10 +27,10 @@ function App() {
   return (
     <>
       <Navbar/>
-      {/* <Routes>
+      <Routes>
           <Route path='/' element={<LandingPage/>} />
           <Route path='/Planner' element={<Planner/>}/>
-      </Routes> */}
+      </Routes>
     </>
   )
 }

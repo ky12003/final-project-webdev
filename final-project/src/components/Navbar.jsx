@@ -18,8 +18,8 @@ const Navbar = () => {
 
             <nav className="navbar">
               <div className="ref-container">
-                <a href="#home">Home</a>
-                <a href="#planner">Planner</a>
+                <a href="/">Home</a>
+                <a href="/Planner">Planner</a>
                 <a href="#planner">Saved Schedules</a>
               </div>
 
