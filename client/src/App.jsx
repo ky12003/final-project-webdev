@@ -19,23 +19,21 @@ import { Routes, Route } from 'react-router-dom'
 MISC IMPORTS
 --------*/
 import './App.css'
-import * as classes from './scripts/classes.js'
+// import * as classes from './scripts/classes.js'
 
 
 function App() {
   const [backendData, setBackendData] = useState([{}])
 
   useEffect(() => {
-    fetch("/").then(
-      response => response.json
-    ).then(
+    fetch("/generate-plan").then(
       data => {
         setBackendData(data)
-      }
+      },console.log("DONE")
     )
   }, [])
 
-
+  console.log(backendData)
 
   return (
     <>
