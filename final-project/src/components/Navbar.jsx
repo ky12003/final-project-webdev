@@ -19,8 +19,8 @@ const Navbar = () => {
             <nav className="navbar">
               <div className="ref-container">
                 <a href="#home">Home</a>
-                <a href="#speciality">Planner</a>
-                <a href="#popular">Saved Schedules</a>
+                <a href="#planner">Planner</a>
+                <a href="#planner">Saved Schedules</a>
               </div>
 
               <div className="App">
