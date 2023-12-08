@@ -2,7 +2,7 @@ import { useState } from "react";
 import Modal from 'react-modal';
 import '../css/LoginPage.css'
 
-function LoginPage() {
+const LoginPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {

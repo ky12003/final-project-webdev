@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: rgb(16, 4, 83);
+}
+
+#section1{
+    background-color: #f9f5f5;
+}
+
+#header {
+    font-family: Pacifico, cursive;
+    font-size: 3em; /* Adjust the font size as needed */
+    color: rgb(16, 4, 83);
+}
+
+#content {
+    color: rgb(16, 4, 83);
+    width: 50%;
+    padding: 20px;
+    margin-top: -90px; /* Move the content up */
+    margin-left: 28px;
+}
+
+#subtext {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -37px;
+    line-height: 1.5;
+}
+
+#image-container {
+    width: 50%;
+    text-align: center;
+}
+
+#profile-image {
+    width: 625px; /* Adjust the size as needed */
+    height: 625px; /* Adjust the size as needed */
+    border-radius: 50%; 
+    max-width: 100%;
+}
+
+#image-container-section2 {
+    width: 50%;
+    text-align: center;
+}
+
+#generate-button {
+    background-color: rgb(16, 4, 83); /* Same color as the header text */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px; /* Adjust the margin as needed */
+}
+
+#generate-button:hover {
+    background-color: #0a022f; /* Darken the color on hover if desired */
+}
+
+#section2{
+    background-color:rgb(16, 4, 83);
+}
+
+#section2-content{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#mission{
+    color:rgb(165, 215, 240); 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+#text{
+    width:50%;
+    order:2;
+}
+
+#image2{
+    height:40%;
+    width:40%;
+    order:1;
+}
+
+#more{
+    color:white;
+    line-height:1.5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -20px;
+}
+
+#section3{
+    background-color: #f9f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature {
+    color: rgb(16,4,83);
+    font-size: 3em;
+    margin-top: 60px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: rgb(16, 4, 83);
+    color: rgb(165, 215, 240);
+    width: 275px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 50px;
+    border-radius: 8px;
+    margin:30px;
+    height:470px;
+}
+
+#des{
+    text-align: left;
+    line-height: 1.5;
+}
+
+.card img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#faq-section {
+    background-color: rgb(16, 4, 83);
+    color: rgb(165, 215, 240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 40px;
+}
+
+#faq-title {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -90px;
+}
+
+.faq-item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.faq-label {
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.question, .answer {
+    margin-top: 23px;
+}
+
+.answer {
+    font-weight: bold;
+}
