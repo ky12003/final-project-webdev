@@ -25,10 +25,10 @@ const Navbar = () => {
 
               <div className="App">
 
-                <button class="profile-btn"><img
+                <button className="profile-btn"><img
                 src={greyEllipse}
                 alt="profile picture"
-                class="profile-icon"
+                className="profile-icon"
               /></button>
 
               </div>
